@@ -1,0 +1,6 @@
+include:
+  - project: 'affinidi/foundational/foundational-pipeline'
+    file: '/security.yml'
+
+stages:
+  - security-testing
